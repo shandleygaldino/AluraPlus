@@ -30,7 +30,7 @@ body{
 .container{
     height: 100vh;
     display: grid;
-    grid-template-columns: 40% 40% 40%
+    grid-template-columns: 40% 40% 20%
     
 }
 .container__titulo{
@@ -50,6 +50,7 @@ body{
     display: block;
     text-decoration: none;
     margin-bottom: 1em;
+    
 }
 .container__caixa{
     margin: 0 6em;
@@ -75,6 +76,10 @@ body{
     margin: 0 10em;
 
 }
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
+}
 
 .descricao__titulo{
     color: var(--branco-principal);
@@ -85,5 +90,7 @@ body{
 .descricao__texto{
     color: var(--cinza-secundario)
 }
-
+.container__descricao{
+    padding: 2em;
+}
 
